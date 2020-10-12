@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap</title>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background-color: rgb(255, 230, 0);
+    }
+    
+    html {
+      box-sizing: border-box;
+    }
+    
+    *, *:before, *:after {
+      box-sizing: inherit;
+    }
+    
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+    
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 8px;
+    }
+    
+    .about-section {
+      padding: 50px;
+      text-align: center;
+      background-color: #00a2ff;
+      color: rgb(255, 238, 0);
+    }
+    
+    .container {
+      padding: 0 16px;
+    }
+    
+    .container::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    
+    .title {
+      color: grey;
+    }
+    
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: rgb(255, 238, 0);
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    .button:hover {
+      background-color: #555;
+    }
+    
+    @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
+    </style>
+    </head>
+
+    <body>
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <h1>Change The World, With Borat.</h1>
+        </div>
+          
+          <nav class="navbar navbar-expand-sm bg-warning navbar-dark">
+            <a class="navbar-brand" href="index.html">Borat Corporation</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="borat.html">Contact</a>
+                </li>    
+              </ul>
+            </div>  
+          </nav>
+
+          <div class="about-section">
+            <h1>Who are we?</h1>
+            <p>We have absolutely no resources whatsoever to produce something so we are pretty useless, but we can guarantee that Borat Corporation is the only, and we repeat, only thing that are going to save this bullshit 2020.</p>
+          </div>
+          
+          <h2 style="text-align:center">Our Team</h2>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="https://www.newsvilletimes.com/wp-content/uploads/2020/10/Borat-1-scaled-300x300.jpg" alt="Borat" style="width: 100%">
+                <div class="container">
+                  <h2>Borat Sagdijev</h2>
+                  <p class="title">CEO & Founder</p>
+                  <p>Heljo, ma nejm iz Borat. Aj am crietor of diz sajt end aj lajk sexi taime.</p>
+                  <p>boratsexytime@gmail.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <img src="https://alchetron.com/cdn/azamat-bagatov-b8e744c3-57a9-48cc-b6a8-e0ea12c3839-resize-750.jpg" alt="Azamat" style="width:100%">
+                <div class="container">
+                  <h2>Azamat Bagatov</h2>
+                  <p class="title">Why is he here</p>
+                  <p>Whay em aj here.</p>
+                  <p>Azamatkazakhman@hotmail.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="column">
+              <div class="card">
+                <img src="https://whattype.com/wp-content/uploads/2018/06/sacha-baron-cohen-297414-1-402.jpg" alt="Sacha" style="width:100%">
+                <div class="container">
+                  <h2>Sacha Baron Cohen</h2>
+                  <p class="title">Designer</p>
+                  <p>Hi, my name is Sacha Cohen and I am the designer of this useless website.</p>
+                  <p>sachabaroncohen@gmail.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
